@@ -138,16 +138,16 @@
                     <!-- Start Contact Form -->
                     <div class="contact-form">
                         <form action="https://formspree.io/gundan.hr@gmail.com" id="contact-form" method="POST">
-                            <input type="text" id="name" name="name" value="" placeholder="Name" />
-                            <input type="email" id="email" name="email" value="" placeholder="Email" />
+                            <input type="text" id="name" name="name" value="" placeholder="Name" required/>
+                            <input type="email" id="email" name="email" value="" placeholder="Email" required/>
                             <input type="hidden" id="user-status" name="user-status" value="1"  />
-                            <textarea id="user-message" name="message" placeholder="Message"></textarea>
+                            <textarea id="user-message" name="message" placeholder="Message" required></textarea>
                             <div class="footer-form">
                                 <input type="submit" id="submit-btn" class="btn btn-color hover-animate"  value="Send" />
-                                <div class="info-message-form">
+                                <!-- <div class="info-message-form">
                                     <p>Please fill out all the fields!</p>
                                     <span class="close-msg"><i class="fa fa-close"></i></span>
-                                </div>
+                                </div> -->
                             </div>
                         </form>
                     </div>
